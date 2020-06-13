@@ -1,0 +1,629 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    margin: 50px 30px 100px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav button{
+    background-color: #fff;
+    border: 1px solid hsl(322, 100%, 66%);
+    color: hsl(322, 100%, 66%);
+    border-radius: 20px;
+    width: 100px;
+    font-weight: 400;
+}
+
+h1 ,h2, h3 {
+    font-family: 'Poppins', sans-serif;
+
+}
+h2{
+    font-weight: 800;
+}
+p, button{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.images{
+    width:80%;
+    height: 100%;
+}
+
+.icon-top{
+    margin-right: 180px;
+}
+.btn-get{
+    border: 1px solid hsl(322, 100%, 66%);
+    background-color: hsl(322, 100%, 66%);
+    color: #fff;
+    border-radius: 20px;
+    width: 200px;
+    height: 50px;
+    margin-bottom: 100px;
+}
+
+.top div p {
+        color: rgb(89, 94, 97);
+        font-weight: 700;
+
+}
+
+
+
+/* section */
+section{
+    text-align: center;
+}
+
+
+aside{
+    text-align: center;
+}
+h1{
+    font-size: 90px;
+}
+.small{
+    font-size: 85px;
+}
+h2{
+    font-size: 25px;
+}
+.top h2{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+@media only screen and (min-width:1000px) and (max-width: 1439px) {
+    .top-p {
+        margin-left: 200px;
+        margin-right: 200px;
+        margin-bottom: 50px;
+    }
+    .top .images{
+        width: 100%;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+    .top .container{
+        margin-top: 50px;
+    }
+    .top .row {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .bg-m-top-1{
+        height: 200px;
+        background: url(./images/bg-section-top-desktop-1.svg);
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .bg-m-bottom-1{
+        height: 150px;
+        background: url(./images/bg-section-bottom-desktop-1.svg);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .bg-m-top-2{
+        height: 200px;
+        background: url(./images/bg-section-top-desktop-2.svg);
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .bg-m-bottom-2{
+        height: 150px;
+        background: url(./images/bg-section-bottom-desktop-2.svg);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .footer-bg{
+        height: 200px;
+        background: url(./images/bg-footer-top-desktop.svg);
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        
+
+    }
+
+    #together, #users{
+        display: flex;
+        padding-right: 10%;
+        padding-left: 10%;
+        background-color: hsl(207, 100%, 98%);
+
+    }
+    #together .content, #users .content {
+        order: 1;
+        width: 50%;
+        text-align: start;
+        padding-top: 150px;
+        margin-right: 100px;
+        line-height: 40px;
+
+
+    }
+    #together .images, #users .images {
+        order: 2;
+        width: 50%;
+    }
+
+    h3{
+        font-size: 25px;
+        font-weight: 800;
+    }
+
+    .conversation {
+        display: flex;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+    .conversation img{
+        width: 50%;
+    }
+    .conversation .content {
+        width: 50%;
+        text-align: start;
+        padding-top: 150px;
+        margin-left: 100px;
+        line-height: 40px;
+    }
+
+    aside h2{
+        margin-bottom: 50px;
+    }
+
+    footer{
+        background-color: hsl(192, 100%, 9%);
+        color: #fff;
+        padding-top: 50px;
+        padding-right: 60px;
+        padding-left: 60px;
+        padding-bottom: 50px;
+
+        display: flex;
+    }
+
+    .footer-logo{
+        margin-bottom: 10px;
+    }
+    .footer-1, .footer-2{
+        width: 50%;
+    }
+    .footer-2 p {
+        margin-right: 200px;
+        line-height: 30px;
+    }
+    .footer-1 p{
+        margin-bottom: 50px;
+        margin-right: 100px;
+    }
+        
+
+
+    input{
+        border: 1px solid hsl(192, 100%, 9%);
+        font-size: 15px;
+        width: 350px;
+        height: 50px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        margin-right: 20px;
+    }
+
+    footer button{
+        background-color: hsl(322, 100%, 66%);
+        border: 1px solid hsl(322, 100%, 66%);
+        color: #fff;
+        border-radius: 10px;
+        width: 200px;
+        height: 50px;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    .contact{
+        margin-top: 30px;
+    }
+    .social-icon{
+        margin-top: 50px;
+    }
+    .social-icon i{
+        margin-right: 15px;
+    }
+}
+
+@media only screen and (min-width: 1440px){
+    .top-p {
+        margin-left: 400px;
+        margin-right: 400px;
+        margin-bottom: 50px;
+    }
+    .top .images{
+        width: 100%;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+    .top .container{
+        margin-top: 50px;
+    }
+    .top .row {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .bg-m-top-1{
+        height: 200px;
+        background: url(./images/bg-section-top-desktop-1.svg);
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .bg-m-bottom-1{
+        height: 150px;
+        background: url(./images/bg-section-bottom-desktop-1.svg);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .bg-m-top-2{
+        height: 200px;
+        background: url(./images/bg-section-top-desktop-2.svg);
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .bg-m-bottom-2{
+        height: 150px;
+        background: url(./images/bg-section-bottom-desktop-2.svg);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .footer-bg{
+        height: 200px;
+        background: url(./images/bg-footer-top-desktop.svg);
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        
+
+    }
+
+    #together, #users{
+        display: flex;
+        padding-right: 10%;
+        padding-left: 10%;
+        background-color: hsl(207, 100%, 98%);
+
+    }
+    #together .content, #users .content {
+        order: 1;
+        width: 50%;
+        text-align: start;
+        padding-top: 150px;
+        margin-right: 100px;
+        line-height: 40px;
+
+
+    }
+    #together .images, #users .images {
+        order: 2;
+        width: 50%;
+    }
+
+    h3{
+        font-size: 25px;
+        font-weight: 800;
+    }
+
+    .conversation {
+        display: flex;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+    .conversation img{
+        width: 50%;
+    }
+    .conversation .content {
+        width: 50%;
+        text-align: start;
+        padding-top: 150px;
+        margin-left: 100px;
+        line-height: 40px;
+    }
+
+    aside h2{
+        margin-bottom: 50px;
+    }
+
+    footer{
+        background-color: hsl(192, 100%, 9%);
+        color: #fff;
+        padding-top: 50px;
+        padding-right: 100px;
+        padding-left: 100px;
+        padding-bottom: 50px;
+
+        display: flex;
+    }
+
+    .footer-logo{
+        margin-bottom: 10px;
+    }
+    .footer-1, .footer-2{
+        width: 50%;
+    }
+    .footer-2 p {
+        margin-right: 200px;
+        line-height: 30px;
+    }
+    .footer-1 p{
+        margin-bottom: 50px;
+        margin-right: 230px;
+    }
+        
+
+
+    input{
+        border: 1px solid hsl(192, 100%, 9%);
+        font-size: 15px;
+        width: 350px;
+        height: 50px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        margin-right: 20px;
+    }
+
+    footer button{
+        background-color: hsl(322, 100%, 66%);
+        border: 1px solid hsl(322, 100%, 66%);
+        color: #fff;
+        border-radius: 10px;
+        width: 200px;
+        height: 50px;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    .contact{
+        margin-top: 30px;
+    }
+    .social-icon{
+        margin-top: 50px;
+    }
+    .social-icon i{
+        margin-right: 15px;
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 999px){
+    nav img{
+        width: 30%;
+    }
+    section{
+        text-align: center;
+    }
+    .together p {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .conversation p {
+        padding-left: 15px;
+        padding-right: 15px;
+
+    }
+    .users p {
+        padding-left: 15px;
+        padding-right: 15px;
+
+    }
+    aside{
+        text-align: center;
+    }
+    h1{
+        font-size: 90px;
+    }
+    .small{
+        font-size: 85px;
+    }
+    h2{
+        font-size: 25px;
+    }
+    .top h2{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 20px;
+    }
+    .top p{
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 50px;
+    }
+    .top .images{
+        margin-bottom: 100px;
+    }
+    .top{
+        margin-bottom: 150px;
+    }
+    #together, #users{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background-color: hsl(207, 100%, 98%);
+    }
+    .together, .users{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .bg-m-top-1{
+        height: 150px;
+        background: url(./images/bg-section-top-desktop-1.svg);
+        background-position: bottom;
+        background-repeat: no-repeat;
+    }
+    .bg-m-bottom-1{
+        height: 150px;
+        background: url(./images/bg-section-bottom-desktop-1.svg);
+        background-position: top;
+        background-repeat: no-repeat;
+    }
+
+    .bg-m-top-2{
+        height: 200px;
+        background: url(./images/bg-section-top-desktop-2.svg);
+        background-position: bottom;
+        background-repeat: no-repeat;
+    }
+
+    .bg-m-bottom-2{
+        height: 150px;
+        background: url(./images/bg-section-bottom-desktop-2.svg);
+        background-position: top;
+        background-repeat: no-repeat;
+    }
+
+    .footer-bg{
+        height: 200px;
+        background: url(./images/bg-footer-top-desktop.svg);
+        background-position: bottom;
+        background-repeat: no-repeat;
+
+    }
+
+    footer{
+        background-color: hsl(192, 100%, 9%);
+        color: #fff;
+        padding-top: 50px;
+        padding-right: 15px;
+        padding-left: 15px;
+        padding-bottom: 50px;
+
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-1{
+        order: 1;
+        margin-bottom: 80px;
+    }
+    .footer-2{
+        order: 2;
+    }
+
+    .footer-1 p{
+        margin-bottom: 20px;
+    }
+    input{
+        border: 1px solid hsl(192, 100%, 9%);
+        font-size: 15px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    footer button{
+        background-color: hsl(322, 100%, 66%);
+        border: 1px solid hsl(322, 100%, 66%);
+        color: #fff;
+        border-radius: 10px;
+        width: 50%;
+        height: 50px;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    form{
+        text-align: end;
+    }
+    .footer-logo{
+        margin-bottom: 10px;
+    }
+    .footer-2 p {
+        line-height: 30px;
+        
+    }
+    .contact{
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+    .social-icon i{
+        margin-right: 15px;
+    }
+}
+
+
+@media only screen and (max-width: 375px){
+    .bg-m-top-1{
+        height: 150px;
+        background: url(./images/bg-section-top-mobile-1.svg);
+        background-position: bottom;
+        background-repeat: no-repeat;
+    }
+    .bg-m-bottom-1{
+        height: 150px;
+        background: url(./images/bg-section-bottom-mobile-1.svg);
+        background-position: top;
+        background-repeat: no-repeat;
+    }
+
+    .bg-m-top-2{
+        height: 150px;
+        background: url(./images/bg-section-top-mobile-2.svg);
+        background-position: bottom;
+        background-repeat: no-repeat;
+    }
+
+    .bg-m-bottom-2{
+        height: 150px;
+        background: url(./images/bg-section-bottom-mobile-2.svg);
+        background-position: top;
+        background-repeat: no-repeat;
+    }
+
+    .footer-bg{
+        height: 150px;
+        background: url(./images/bg-footer-top-mobile.svg);
+        background-position: bottom;
+        background-repeat: no-repeat;
+
+    }
+
+}
+
+
